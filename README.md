@@ -1,4 +1,4 @@
-# Inlin Input Element
+# Inline Input Element
 
 ## Installing
 
