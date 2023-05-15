@@ -3,7 +3,7 @@
 ## Installing
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/JonoAugustine/inline-input-label/inlineInputLabel.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/JonoAugustine/inline-input/inlineInputLabel.js"></script>
 ```
 
 ## Usage
