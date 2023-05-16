@@ -1,5 +1,7 @@
 # Inline Input Element
 
+https://jonoaugustine.github.io/inline-input/
+
 ## Installing
 
 ```html
