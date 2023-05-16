@@ -79,7 +79,9 @@ class InlineInputLabel extends HTMLElement {
         this.getAttribute("name"),
         this.getAttribute("type"),
         this.getAttribute("color"),
-        this.getAttribute("background-color"),
+        typeof this.getAttribute("background-color") === "string"
+          ? this.getAttribute("background-color")
+          : undefined,
         this.getAttribute("textarea") === "",
         this.getAttribute("class")
       ).content.cloneNode(true)
