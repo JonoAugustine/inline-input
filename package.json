@@ -1,0 +1,11 @@
+{
+  "name": "inline-input",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:JonoAugustine/inline-input.git",
+  "author": "JonoAugustine <me@jonoaugustine.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^2.8.8"
+  }
+}
