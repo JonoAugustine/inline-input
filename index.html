@@ -20,16 +20,40 @@
         display: flex;
         justify-content: center;
       }
+
+      main {
+        display: flex;
+        flex-direction: row;
+        margin-top: 40vmin;
+        justify-content: space-evenly;
+      }
+
+      section {
+        margin: 0 5%;
+        color: whitesmoke;
+      }
     </style>
   </head>
   <body>
-    <div style="margin-top: 50vmin">
-      <inline-input id="input-a" name="Input A"> </inline-input>
-      <br />
-      <inline-input name="Input B"> </inline-input>
-      <br />
-      <inline-input name="Input C" textarea> </inline-input>
-    </div>
-    <script src="https://cdn.jsdelivr.net/gh/JonoAugustine/inline-input/inlineInputLabel.js"></script>
+    <main>
+      <section>
+        <xmp>
+          <inline-input id="input-a" name="Input A"></inline-input>
+          <br />
+          <inline-input name="Input B"></inline-input>
+          <br />
+          <inline-input name="Input C" textarea></inline-input>
+        </xmp>
+      </section>
+      <section>
+        <inline-input id="input-a" name="Input A"></inline-input>
+        <br />
+        <inline-input name="Input B"></inline-input>
+        <br />
+        <inline-input name="Input C" textarea></inline-input>
+      </section>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/gh/JonoAugustine/inline-input/inlineInputLabel.js"></script>
   </body>
 </html>
